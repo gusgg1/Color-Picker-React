@@ -1,0 +1,81 @@
+@font-face {
+	font-family: "IBMPlexSerif-Light";
+	src: url("./fonts/IBMPlexSerif-Light.ttf");
+}
+
+body {
+	background-color: white;
+	margin: 0;
+	font-family: 'IBMPlexSerif-Light', Arial, sans-serif;
+}
+
+.square {
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+	cursor: pointer;
+}
+
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+h1 {
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	color: #222;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 20px 0;
+	border-bottom: solid #222 1px; 
+}
+
+#colorDisplay {
+	font-size: 200%;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+	font-weight: 900;
+}
+
+#stripe {
+	height: 30px;
+	text-align: center;
+	border-bottom: solid #222 1px; 
+}
+
+.selected {
+	color: white;
+	background: #222;
+}
+
+button {
+	font-family: 'IBMPlexSerif-Light', Arial, sans-serif;	
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: #222;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+	cursor: pointer;
+}
+
+button:hover {
+	color: white;
+	background: #222;
+}
