@@ -2,6 +2,16 @@
 
 ###### This is a simple color picker game app built with React.
 
+#### To run this project simply download the files
+* To install dependencies:
+```
+npm install
+```
+* To run:
+```
+npm start
+```
+
 ##### Have fun!
 
 
